@@ -1,0 +1,116 @@
+﻿* {
+    padding: 0px;
+    margin: 10px;
+}
+
+body {
+    padding: 0px 300px 0px 300px;
+}
+
+#formdangky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#khungdk {
+    width: 40%;
+    height: 30%;
+    border-color: #2664ff;
+    border-radius: 20px;
+}
+
+.label {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 0%;
+}
+
+.signup {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+#headsu {
+    margin: 5%;
+    color: #2664ff;
+    font-weight: 100;
+    font-size: 20px;
+    text-shadow: #000000;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#txtgmail {
+    width: 90%;
+    height: 25px;
+    border-radius: 7.5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#sdt {
+    width: 90%;
+    height: 25px;
+    border-radius: 7.5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#txttaikhoan {
+    width: 90%;
+    height: 25px;
+    border-radius: 7.5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#txtmatkhau {
+    width: 90%;
+    height: 25px;
+    border-radius: 7.5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#txtrmatkhau {
+    width: 90%;
+    height: 25px;
+    border-radius: 7.5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#txtdiachi {
+    width: 90%;
+    height: 50px;
+    border-radius: 7.5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#btndangnhap {
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+    color: #2664ff;
+    border-color: #2664ff;
+    font-weight: bold;
+    border-radius: 1.5em;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#btndangky {
+    padding: 10px 15px 10px 15px;
+    background-color: #2664ff;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 1.5em;
+}
+
+.alert {
+    margin: 0;
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,337 @@
+﻿@media screen and (max-width: 1024px) {
+    /* index */
+    #small-header p {
+        line-height: 38px;
+        font-size: 10px;
+    }
+
+    .section-p1 {
+        padding: 20px 40px;
+    }
+
+    #main-header {
+        width: 100%;
+        flex-direction: column;
+        justify-content: normal;
+        padding: 20px 0;
+        flex-wrap: wrap;
+    }
+
+        #main-header img {
+            width: 100%;
+        }
+
+
+    #navbar > li {
+        padding: 0 10px;
+    }
+
+        #navbar > li > a {
+            font-size: 12px;
+        }
+
+    .search, #navbar, #user {
+        margin-top: 15px;
+    }
+
+        .search input[type="text"] {
+            width: 300px;
+        }
+
+    .btndangnhap {
+        font-size: 12px;
+    }
+
+    #slider {
+        width: 100%;
+        background-size: 150% 100%;
+    }
+
+        #slider .slider-btn {
+            padding: 0;
+        }
+
+    #product1 h1 {
+        margin-top: 17px;
+        font-size: 30px;
+    }
+
+    #product1 p {
+        font-size: 15px;
+    }
+
+    #product1 .big-container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #product1 .sp-box {
+        width: 100%;
+        min-width: 0;
+    }
+
+    #product1 .blog-box {
+        width: 100%;
+        min-width: 0;
+    }
+
+    #service {
+        width: 100%;
+    }
+
+        #service h1 {
+            margin-top: 0;
+            font-size: 32px;
+        }
+
+        #service .big-container {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #service .sp-box {
+            width: 100%;
+            min-width: 0;
+        }
+
+            #service .sp-box h3 {
+                font-size: 26px;
+            }
+
+            #service .sp-box .service-icon {
+                font-size: 40px;
+                margin-top: 70px;
+            }
+
+    #email-register p {
+        font-size: 14px;
+    }
+
+    #email-register h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    #email-register .email-form {
+        width: 100%;
+    }
+
+    #email-register button {
+        padding: 0 18px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    footer .col {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+
+
+
+
+
+
+    /*keyboard*/
+    #sp-header {
+        padding-top: 140px;
+    }
+
+        #sp-header h1 {
+            font-size: 27px;
+        }
+
+        #sp-header p {
+            font-size: 11px;
+        }
+
+        #sp-header img {
+            object-fit: content;
+            background-position: top;
+        }
+
+    /* giohang */
+
+
+    /* #cart {
+        width: 100%;
+        flex-direction:column;
+    } */
+
+    /* #cart table{
+        width: 100%;
+        table-layout: auto;
+    }
+    #cart table thead td{
+        font-size: 12px;
+    }
+    #cart table tbody td {
+        font-size: 12px;
+        width: 50px;
+    }
+    #nameSP{
+        width: 30px;
+    }
+    #cart table tbody td img {
+        width: 70%;
+    }
+    #cart table td:nth-child(1){
+        width: 10%;
+        text-align: center;
+    }
+    #cart table td:nth-child(2){
+        width: 10px;
+        text-align: center;
+    }
+    #cart table td:nth-child(3){
+        width: 100px;
+        text-align: center; */
+    #cart table {
+        width: 100%;
+        /* table-layout: auto; */
+        margin: 0 5px;
+    }
+
+
+    #total {
+        margin-top: 70px;
+    }
+
+    #coupon h3 {
+        padding-bottom: 5px;
+    }
+
+    #coupon button {
+        margin-top: 10px;
+        width: 98px;
+        position: absolute;
+        right: 40px;
+    }
+
+    .rtl {
+        width: 100%;
+    }
+
+    #coupon input {
+        width: 200%;
+    }
+
+        #coupon input placeholder {
+            direction: ltr;
+        }
+
+    #total {
+        width: 100%;
+        padding-bottom: 70px;
+    }
+
+        #total button {
+            position: absolute;
+            right: 75px;
+        }
+
+        #total table {
+            margin-bottom: 10px;
+        }
+
+
+
+
+
+
+
+
+    /* detail */
+    #sp-detail {
+        flex-direction: column;
+    }
+
+        #sp-detail .single-pro-image {
+            margin-top: 120px;
+            border-radius: 5px;
+            width: 100%;
+            height: 230px;
+        }
+
+            #sp-detail .single-pro-image p {
+                font-size: 11px;
+                margin-bottom: 10px;
+            }
+
+            #sp-detail .single-pro-image img {
+                margin: 2px;
+                height: 150px;
+                border-radius: 5px;
+            }
+
+        #sp-detail .sp-info {
+            margin-top: 0px;
+            width: 100%;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+            #sp-detail .sp-info h4 {
+                font-size: 17px;
+                margin-right: 50px;
+            }
+
+            #sp-detail .sp-info h2 {
+                font-size: 22px;
+            }
+
+            #sp-detail .sp-info hr {
+                align-items: center;
+                width: 80%;
+            }
+    /* #sp-detail .sp-info input{
+        font-size: 17px;
+        margin-bottom: 10px;
+        margin-left: 50%;
+    }
+    #sp-detail .sp-info button{
+        padding: 10px;
+        width: 100px;
+    } */
+
+    #sp-relative h1 {
+        font-size: 25px;
+    }
+
+    #sp-relative .sp-box {
+        width: 100%;
+        min-width: 0;
+    }
+
+    #sp-category h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #sp-category .button,
+    #sp-category .button-focus {
+        width: 1fr;
+        height: 30px;
+        padding: 0px 10px;
+        margin-left: 0px;
+    }
+
+    #sp-category p {
+        font-size: 11px;
+    }
+
+    #sp-category {
+        width: 100%;
+        margin: auto;
+    }
+}
